@@ -1,0 +1,70 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	background-color: #EEEEEE;
+}
+
+div#main{
+	width:1024px;
+	background-color:#ffffff;
+	margin:0px auto 0px auto;
+	position:relative;
+	overflow:hidden;
+}
+
+.button{
+	border: solid 1px #000000;
+	font-weight:bold;
+	display:inline-block;
+	margin-top:5px;
+	padding:0px 2px 0px 2px;
+	cursor:pointer;
+}
+
+.error{
+	display:none;
+	color:#E60000;
+	text-align:center;
+}
+
+.button:hover{
+	color:#ffffff;
+	background:#000000;
+}
+
+table#roomList{
+	margin:0px auto 0px auto;
+}
+
+table#roomList thead{
+	position: static;
+	color:#000000;
+	background-color: #A9C0CC;
+	font-weight: bold;
+}
+
+table#roomList th{
+    display:inline-block;
+    margin-right:25px;
+}
+
+table#roomList th:first-child{
+	margin-left:25px;
+}
+
+#newUserForm{
+	position:relative;
+	width:250px;
+	margin:0px auto 0px auto;
+}
+
+#newUserForm input{
+	width:250px;
+	border: solid 1px #AAAAAA;
+}
+
+#newUserForm .button{
+	float:right;
+}

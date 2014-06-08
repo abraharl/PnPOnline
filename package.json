@@ -1,0 +1,13 @@
+{
+  "name":"PnPOnline",
+  "author":"Richard Lee Abraham",
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/abraharl/PnPOnline"
+  },
+  "dependencies":{
+    "colors":"*",
+    "mysql":"2.0.0-alpha9",
+    "connect":"2.11.2"
+  }
+}
