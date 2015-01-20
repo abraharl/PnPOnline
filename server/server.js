@@ -1,3 +1,5 @@
+/*TODO: Implement remaining MIME types*/
+
 var http = require('http');
 var fs = require('fs');
 var path = require('path');
